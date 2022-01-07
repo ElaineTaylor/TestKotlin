@@ -1,19 +1,18 @@
 plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
+    id 'com.android.library'
 }
+apply plugin: 'kotlin-android'
 
 android {
-    compileSdk 31
+    compileSdkVersion 31
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.elaine.myapplication"
-        minSdk 23
-        targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion 23
+        targetSdkVersion 31
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -26,9 +25,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
 }
 
 dependencies {
@@ -40,6 +36,4 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
-    implementation project(path: ':myGzh')
 }

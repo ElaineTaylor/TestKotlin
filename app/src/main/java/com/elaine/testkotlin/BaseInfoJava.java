@@ -9,4 +9,7 @@ class BaseInfoJava {
     public static String getMsg() {
         return null;
     }
+
+    int a = 0;
+    int c = a > 0 ? a : -2;
 }

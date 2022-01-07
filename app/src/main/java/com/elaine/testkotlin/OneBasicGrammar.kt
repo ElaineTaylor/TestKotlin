@@ -182,7 +182,7 @@ class OneBasicGrammar {
      */
     fun describe(obj: Any): String =
         when (obj) {
-            1 -> "number"
+            1,2 -> "number"
             "hello" -> "string"
             is Long -> "Long"
             !is String -> "Not a string"

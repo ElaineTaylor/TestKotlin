@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/TestKotlin.iml" group="TestKotlin" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="TestKotlin/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/TestKotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.iml" filepath="$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.iml" />
     </modules>
   </component>
 </project>

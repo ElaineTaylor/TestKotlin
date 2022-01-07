@@ -98,7 +98,7 @@ class TwoUsedMethod {
      */
     fun initLet() {
         val value: String? = null
-        value?.let {
+        val any = value?.let {
             //代码会执行到此处, 假如data不为null
             transform(it)
         } ?: "defaultValue"

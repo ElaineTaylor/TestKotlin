@@ -29,7 +29,10 @@ class BaseInfo {
         print(b!!.length)
         // 三目条件操作符（?:）
         // 以下实现获取b的长度，如果有长度则c为长度，否则c为0
+        print(b?.length ?: 0)
         val c = b?.length ?: 0
+
+
     }
 
     var c: Any? = 123
