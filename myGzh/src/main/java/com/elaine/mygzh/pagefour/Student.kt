@@ -68,4 +68,9 @@ fun test() {
     student.startLearn()
 
     student.run//调用了才初始化
+
+    //==，比较引用，类继承Any类，所以这里表的是引用
+    //===，比较引用
+    print(Student("小明") == Student("小明"))//false
+    print(Student("小明") === Student("小明"))//false
 }
