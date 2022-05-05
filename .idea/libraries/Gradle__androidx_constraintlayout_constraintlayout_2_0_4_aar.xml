@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.constraintlayout:constraintlayout:2.0.4@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/caches/transforms-3/c3ee6f8d7fb7a40e89a816d446ab0dc5/transformed/constraintlayout-2.0.4/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/caches/transforms-3/c3ee6f8d7fb7a40e89a816d446ab0dc5/transformed/constraintlayout-2.0.4/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/caches/transforms-3/c3ee6f8d7fb7a40e89a816d446ab0dc5/transformed/constraintlayout-2.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/18832ceebbaa25b95a33b58a0a3049e7/transformed/constraintlayout-2.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/18832ceebbaa25b95a33b58a0a3049e7/transformed/constraintlayout-2.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/18832ceebbaa25b95a33b58a0a3049e7/transformed/constraintlayout-2.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

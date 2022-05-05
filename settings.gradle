@@ -9,4 +9,5 @@ dependencyResolutionManagement {
 rootProject.name = "TestKotlin"
 include ':app'
 include ':myGzh'
-
+include ':myAlgorithm'
+include ':myCoroutine'

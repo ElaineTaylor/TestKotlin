@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/TestKotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.iml" filepath="$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.iml" filepath="$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.iml" filepath="$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.iml" />
     </modules>
   </component>

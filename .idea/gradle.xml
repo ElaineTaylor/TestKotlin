@@ -12,6 +12,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/myAlgorithm" />
+            <option value="$PROJECT_DIR$/myCoroutine" />
             <option value="$PROJECT_DIR$/myGzh" />
           </set>
         </option>
