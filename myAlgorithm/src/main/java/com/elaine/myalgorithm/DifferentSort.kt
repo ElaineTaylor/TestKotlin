@@ -1,8 +1,6 @@
 package com.elaine.myalgorithm
 
-import android.R
 import android.util.Log
-import java.util.*
 
 
 /**
@@ -106,4 +104,26 @@ object DifferentSort {
         return newNum
     }
 
+    /**
+     * 希尔排序
+     * 排序前：[2,5,8,4,1,7,9,3,6]
+     * 排序后：[1,2,3,4,5,6,7,8,9]
+     */
+    fun shellSort(numArray: IntArray): IntArray {
+        var step = numArray.size / 2
+        while (1 <= step) {
+            for (i in step until numArray.size) {
+                var j = i - step
+                val tmp = numArray[i]
+                while (j >= 0 && tmp < numArray[j]) {
+                    numArray[j + step] = numArray[j]
+                    j -= step
+                }
+                numArray[j + step] = tmp
+            }
+            Log.e("shellSort===", numArray.contentToString() + "===step:" + step)
+            step /= 2
+        }
+        return numArray
+    }
 }
