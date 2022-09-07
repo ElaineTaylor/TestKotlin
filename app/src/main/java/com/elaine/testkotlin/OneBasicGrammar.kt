@@ -1,9 +1,6 @@
 package com.elaine.testkotlin
 
 import android.text.TextUtils
-import androidx.constraintlayout.solver.widgets.Rectangle
-import java.util.*
-
 /**
  * @author elaine
  * @date 2020/8/27

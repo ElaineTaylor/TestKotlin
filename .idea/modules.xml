@@ -4,9 +4,25 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/TestKotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TestKotlin.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/little_project/TestKotlin.little_project.iml" filepath="$PROJECT_DIR$/.idea/modules/little_project/TestKotlin.little_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/little_project/TestKotlin.little_project.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/little_project/TestKotlin.little_project.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/little_project/TestKotlin.little_project.main.iml" filepath="$PROJECT_DIR$/.idea/modules/little_project/TestKotlin.little_project.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/little_project/TestKotlin.little_project.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/little_project/TestKotlin.little_project.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.iml" filepath="$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.main.iml" filepath="$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myAlgorithm/TestKotlin.myAlgorithm.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.iml" filepath="$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.main.iml" filepath="$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myCoroutine/TestKotlin.myCoroutine.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.iml" filepath="$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.main.iml" filepath="$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myGzh/TestKotlin.myGzh.unitTest.iml" />
     </modules>
   </component>
 </project>

@@ -126,4 +126,11 @@ object DifferentSort {
         }
         return numArray
     }
+
+    /**
+     * 快速排序
+     */
+    fun quickSort(numArray: IntArray) {
+
+    }
 }

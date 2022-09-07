@@ -88,11 +88,11 @@ object Solution {
     著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
     fun twoSum(nums: IntArray, target: Int): IntArray {
-        var result= intArrayOf()
+        var result = intArrayOf()
         nums.forEachIndexed { index, num ->
             for (i in index + 1 until nums.size) {
                 if (num + nums[i] == target) {
-                    result= intArrayOf(index,i)
+                    result = intArrayOf(index, i)
                 }
             }
         }
@@ -170,5 +170,75 @@ object Solution {
 //                intArrayOf(index)
 //            }
 //        }
+//    }
+
+    /**
+     * 给你一个整数数组 nums 。如果任一值在数组中出现 至少两次 ，返回 true ；如果数组中每个元素互不相同，返回 false 。
+
+    示例 1：
+
+    输入：nums = [1,2,3,1]
+    输出：true
+    示例 2：
+
+    输入：nums = [1,2,3,4]
+    输出：false
+    示例3：
+
+    输入：nums = [1,1,1,3,3,4,3,2,4,2]
+    输出：true
+
+    来源：力扣（LeetCode）
+    链接：https://leetcode.cn/problems/contains-duplicate
+    著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+     */
+    fun containsDuplicate(nums: IntArray): Boolean {
+        if (nums.isNotEmpty()) {
+            var size = 0
+            var nowNum: Int
+            for (index in nums.indices) {
+                nowNum = nums[index]
+                for (nextIndex in index + 1 until nums.size) {
+                    if (nowNum == nums[nextIndex]) {
+                        size++
+                        break
+                    }
+                }
+                if (size > 0) {
+                    break
+                }
+            }
+            return size > 0
+        } else {
+            return false
+        }
+    }
+
+    /**
+     * 53. 最大子数组和
+     * 给你一个整数数组 nums ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+
+    子数组 是数组中的一个连续部分。
+
+    示例 1：
+
+    输入：nums = [-2,1,-3,4,-1,2,1,-5,4]
+    输出：6
+    解释：连续子数组[4,-1,2,1] 的和最大，为6 。
+    示例 2：
+
+    输入：nums = [1]
+    输出：1
+    示例 3：
+
+    输入：nums = [5,4,-1,7,8]
+    输出：23
+
+    来源：力扣（LeetCode）
+    链接：https://leetcode.cn/problems/maximum-subarray
+    著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+     */
+//    fun maxSubArray(nums: IntArray): Int {
+//
 //    }
 }
