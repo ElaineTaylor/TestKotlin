@@ -1,6 +1,5 @@
 package com.elaine.testkotlin
 
-import androidx.constraintlayout.solver.widgets.Rectangle
 import java.io.File
 import java.lang.IllegalArgumentException
 import java.lang.IllegalStateException

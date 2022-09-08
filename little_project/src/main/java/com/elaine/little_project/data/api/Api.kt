@@ -4,6 +4,9 @@ import com.elaine.little_project.bean.CResponse
 import com.elaine.little_project.bean.Weather
 import retrofit2.http.*
 
+/**
+ * api接口
+ */
 interface Api {
 
     /**

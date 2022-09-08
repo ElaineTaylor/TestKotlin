@@ -1,5 +1,8 @@
 package com.elaine.little_project.http
 
+/**
+ * 通用数据
+ */
 object HttpConstant {
     /**
      * 访问地址
