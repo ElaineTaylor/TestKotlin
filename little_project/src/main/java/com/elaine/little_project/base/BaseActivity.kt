@@ -21,6 +21,7 @@ abstract class BaseActivity<VM : BaseViewModel, VB : ViewDataBinding>(private va
         initViewModel()
         initDataBinding()
         initView()
+        initData()
     }
 
     /**
@@ -47,5 +48,13 @@ abstract class BaseActivity<VM : BaseViewModel, VB : ViewDataBinding>(private va
         }
     }
 
+    /**
+     * 初始化UI
+     */
     abstract fun initView()
+
+    /**
+     * 初始化数据
+     */
+    abstract fun initData()
 }

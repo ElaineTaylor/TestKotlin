@@ -10,12 +10,12 @@ object HttpConstant {
     const val BASE_HTTP = "https://route.showapi.com"
 
     /**
-     * appID
+     * appID todo
      */
-    const val APP_ID = "1156238"
+    const val APP_ID = "替换为万维易源的appId"
 
     /**
-     * app_sign
+     * app_sign todo
      */
-    const val APP_SIGN = "101a005444ed410ea2354063daf83678"
+    const val APP_SIGN = "替换为万维易源的sign"
 }

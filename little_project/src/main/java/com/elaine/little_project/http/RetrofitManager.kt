@@ -17,8 +17,8 @@ object RetrofitManager {
      */
     private val okhttpClient: OkHttpClient
         get() = OkHttpClient.Builder()
-            .addInterceptor(CommonInterceptor())
-            .addInterceptor(HttpLoggingInterceptor())
+            .addInterceptor(CommonInterceptor())//通用参数拦截器
+            .addInterceptor(HttpLoggingInterceptor())//日志拦截器
             .followRedirects(true)
             .build()
 
@@ -27,10 +27,10 @@ object RetrofitManager {
      */
     fun <T> getService(serviceClass: Class<T>): T {
         val retrofit = Retrofit.Builder().apply {
-            baseUrl(HttpConstant.BASE_HTTP)
+            baseUrl(HttpConstant.BASE_HTTP)//基础访问地址
             client(okhttpClient)
-            addConverterFactory(GsonConverterFactory.create())
-            addConverterFactory(ScalarsConverterFactory.create())
+            addConverterFactory(GsonConverterFactory.create())//Gson转换工厂
+            addConverterFactory(ScalarsConverterFactory.create())//String转换工厂
         }.build()
         return retrofit.create(serviceClass)
     }

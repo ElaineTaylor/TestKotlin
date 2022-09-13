@@ -9,6 +9,10 @@ import com.elaine.little_project.databinding.ActivityMainBinding
 class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>(R.layout.activity_main) {
 
     override fun initView() {
+
+    }
+
+    override fun initData() {
         getData()
     }
 
